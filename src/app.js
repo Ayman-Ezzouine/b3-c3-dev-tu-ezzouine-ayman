@@ -16,6 +16,16 @@ class Cube {
     }
 }
 
+class Triangle {
+    constructor(height,base,depth) {
+        this.height = height;
+        this.base = base;
+        this.depth = depth;
+    }
+    
+   
+}
 module.exports = {
-    Cube:Cube
+    Cube:Cube,
+    Triangle:Triangle
 }
